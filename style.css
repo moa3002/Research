@@ -1,0 +1,91 @@
+/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+/* About Section Styling */
+.about {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+/* Gallery Carousel Styling */
+.carousel-item img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    height: auto;
+    margin: 20px auto;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Controls Styling */
+.carousel-control-prev,
+.carousel-control-next {
+    cursor: pointer; /* Ensures the cursor changes to a pointer on hover */
+}
+
+/* Navigation Icons Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a black overlay to the icons */
+    border-radius: 50%; /* Makes the icons circular */
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Captions Styling */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Name Styling (h5 tags) */
+.carousel-caption h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Role Styling (p tags) */
+.carousel-caption p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-style: italic;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #444;
+}
